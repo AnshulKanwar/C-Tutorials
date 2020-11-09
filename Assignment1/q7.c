@@ -10,6 +10,6 @@ int main() {
     scanf("%d", &c);
 
     float d = (a-b)/(b+c);
-    printf("Value of d is %f", d);
+    printf("Value of d is %.2f", d);
     return 0;
 }

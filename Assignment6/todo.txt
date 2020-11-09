@@ -1,0 +1,2 @@
+q3 - do using nested loops
+

@@ -13,9 +13,9 @@ int main() {
     scanf("%d", &time);
 
     float simpleInterest = principal * rate * time;
-    printf("Simple interest is %f\n", simpleInterest);
+    printf("Simple interest is %.2f\n", simpleInterest);
 
     float compoundInterest = (principal * pow(1 + rate, time)) - principal;
-    printf("Compund interest is %f\n", compoundInterest);
+    printf("Compund interest is %.2f\n", compoundInterest);
     return 0;
 }
